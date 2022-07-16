@@ -15,7 +15,7 @@ I would like to thank my mentors <a href="https://github.com/WeRishEin">Rishi Ku
 
 
 I first trained the sequential model. The model trained with 96% of accuracy. The next step was to use OpenCV to take input from the camera and use Haar Cascade classifier to detect face, left eye and right eye.<br>
-<br><img src="Images-for-readme/drowsy.png" width=100%> <i>A demo image showing how the model works and detects drowsiness</i><br><br><br>
+<br><img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-14799-0_54/MediaObjects/480747_1_En_54_Fig5_HTML.png" width=100%> <i>A demo image showing how the model works and detects drowsiness</i><br><br><br>
  The next step was to create a rectangle as a boundary at the eyes. Store each frame in a variable and then pass those frames as jpeg format photos in the model to predict the data. If the probability of eye closed (of any one eye) is more than 0.7 for more than half of the frames in the video then the person can be termed fatigue or drowsy. In that case, the prompt is shown that the person shouldn't drive.
 
 <br>
