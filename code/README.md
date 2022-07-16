@@ -12,7 +12,7 @@ The code was written and run on <a href="https://colab.research.google.com/drive
 <h1>Applying the model realtime on input taken from webcam</h1>
 
 <br>
-I used the model to predict the drowsiness of the person. For that OpenCV was used in order to predict the results. You can see them in <a href="https://github.com/navyanshmahla/RAP-Road-Accident-Prevention/code/main.py"> main.py </a> file. Video was taken from the webcam realtime and each frame was stored in the frame variable. Frames were then passed through the haar cascade classifier which detected the face and the eyes. The eyes were distinguished with an encircled rectangular boundary. The snapshots of the eyes were taken and passed thorugh the CNN.<br>  If the probability of drowsiness is more than 0.7, a prompt has to be shown to the driver that he shouldn't drive. 
+I used the model to predict the drowsiness of the person. For that OpenCV was used in order to predict the results. You can see them in <a href="https://github.com/navyanshmahla/RAP-Road-Accident-Prevention/blob/main/code/main.py"> main.py </a> file. Video was taken from the webcam realtime and each frame was stored in the frame variable. Frames were then passed through the haar cascade classifier which detected the face and the eyes. The eyes were distinguished with an encircled rectangular boundary. The snapshots of the eyes were taken and passed thorugh the CNN.<br>  If the probability of drowsiness is more than 0.7, a prompt has to be shown to the driver that he shouldn't drive. 
 
 <br>
 
