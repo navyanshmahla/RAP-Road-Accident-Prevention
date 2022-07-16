@@ -8,6 +8,9 @@ Adam optimiser is used with a learning rate of 0.001. Categotical Crossentropy l
 Model gave 98.50% accuracy with the training data. The accuracy can be improved by various methods one of which is organising the folders well into left and right eyes as well in order for the algorithm to judge which eye is closed and which one is open. But however, that would be an overkill as 98.50% accuracy is more than enough and would fulfill our requirments. 
 <br>
 The code was written and run on <a href="https://colab.research.google.com/drive/1lRH-1Aeo0-L_2MF6kkqrDfbGJihSCSuq#scrollTo=fSSXwG-9tEt_">Google Colab</a>.
+<br>
+The model looks as follows: 
+<img src="code/models/model_visual_plotlib.png">
 <br><br><br>
 <h1>Applying the model realtime on input taken from webcam</h1>
 
