@@ -10,7 +10,8 @@ Model gave 98.50% accuracy with the training data. The accuracy can be improved 
 The code was written and run on <a href="https://colab.research.google.com/drive/1lRH-1Aeo0-L_2MF6kkqrDfbGJihSCSuq#scrollTo=fSSXwG-9tEt_">Google Colab</a>.
 <br>
 The model looks as follows: 
-<img src="https://raw.githubusercontent.com/navyanshmahla/RAP-Road-Accident-Prevention/main/code/models/model_visual_plotlib.png">
+<img src="https://raw.githubusercontent.com/navyanshmahla/RAP-Road-Accident-Prevention/main/code/models/model_visual_plotlib.png"><br><i>
+<b>Do go through the Google Colab file linked above to see another very fascinating visual of CNN plotted using ANN_Visualizer!</b></i>
 <br><br><br>
 <h1>Applying the model realtime on input taken from webcam</h1>
 
