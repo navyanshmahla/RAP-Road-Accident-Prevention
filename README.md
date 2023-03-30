@@ -20,6 +20,8 @@ I first trained the sequential model. The model trained with 98.50% of accuracy 
 
 <br>
 
+My certificate for this project: https://drive.google.com/file/d/1c-Yjv5Cip4ik9pwKPkp7ZFebcL1v9d5I/view
+
 
 
 
